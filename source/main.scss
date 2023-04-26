@@ -28,17 +28,17 @@ header .container {
 
 .menu {
     display: flex;
-}
 
-.menu li {
-    font-weight: bold;
-    margin-left: 24px;
-    list-style: none;
-}
-
-.menu li a {
-    color: variaveis.$corMenu;
-    text-decoration: none;
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+        list-style: none;
+    }
+    
+    li a {
+        color: variaveis.$corMenu;
+        text-decoration: none;
+    }
 }
 
 section {
